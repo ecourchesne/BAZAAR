@@ -1,0 +1,50 @@
+/* VARIABLES */
+:root {
+
+    /* colors */
+    --light-1: #ffffff;
+    --light-2: #f4f4f4;
+    --light-3: #e8e8e8;
+
+    --dark-1: #000000;
+    --dark-2: #212121;
+
+    --accent: #fff500;
+
+
+    /* typography */
+    --fs-h1: 35px;
+    --fs-h2: 35px;
+
+    --fs-body: 16px;
+    --fs-small-p: 10px;
+
+    --fs-big-button: 35px;
+    --fs-small-button: 18px;
+
+    --fs-radio-inputs: 12px;
+    --fs-vertical-text: 14px;
+
+
+    /* dimensions */
+    --navbar-height: 100px;
+    --navbar-padding: 3rem;
+
+
+}
+
+
+
+/* TYPOGRAPHY */
+h1, h2, h3, h4, h5, button, a {
+    font-family: 'Orbitron';
+}
+
+h1 {
+    font-size: var(--fs-h1);
+    font-weight: 400;
+}
+
+p, span {
+    font-family: 'Poppins';
+}

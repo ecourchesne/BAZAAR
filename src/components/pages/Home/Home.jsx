@@ -39,26 +39,26 @@ const Home = () => {
                 <div className="grey-square" id="b"></div>
                 <div className="grey-square" id="c"></div>
                 <div className="grey-square" id="d"></div>
-                <div className="grey-square" id="5"></div>
-                <div className="grey-square" id="6"></div>
-                <div className="grey-square" id="7"></div>
-                <div className="grey-square" id="8"></div>
-                <div className="grey-square" id="9"></div>
-                <div className="grey-square" id="10"></div>
-                <div className="grey-square" id="11"></div>
-                <div className="grey-square" id="12"></div>
-                <div className="grey-square darker" id="13"></div>
-                <div className="grey-square darker" id="14"></div>
-                <div className="grey-square darker" id="15"></div>
-                <div className="grey-square darker" id="16"></div>
-                <div className="grey-square darker" id="17"></div>
-                <div className="grey-square darker" id="18"></div>
+                <div className="grey-square" id="e"></div>
+                <div className="grey-square" id="f"></div>
+                <div className="grey-square" id="g"></div>
+                <div className="grey-square" id="h"></div>
+                <div className="grey-square" id="i"></div>
+                <div className="grey-square" id="j"></div>
+                <div className="grey-square" id="k"></div>
+                <div className="grey-square" id="l"></div>
+                <div className="grey-square darker" id="m"></div>
+                <div className="grey-square darker" id="n"></div>
+                <div className="grey-square darker" id="o"></div>
+                <div className="grey-square darker" id="p"></div>
+                <div className="grey-square darker" id="q"></div>
+                <div className="grey-square darker" id="r"></div>
 
                 {/* yellow squares */}
-                <div className="yellow-square" id="1"></div>
-                <div className="yellow-square" id="2"></div>
-                <div className="yellow-square" id="3"></div>
-                <div className="yellow-square" id="4"></div>
+                <div className="yellow-square" id="s"></div>
+                <div className="yellow-square" id="t"></div>
+                <div className="yellow-square" id="u"></div>
+                <div className="yellow-square" id="v"></div>
 
                 {/* hidden messages */}
             </div>

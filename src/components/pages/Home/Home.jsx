@@ -4,6 +4,9 @@ import './styles.css'
 
 // homemade components
 import MSquare from '../../tools/MSquare/MSquare'
+import Plus from '../../tools/svgs/Plus/Plus' 
+import Bar from '../../tools/svgs/Bar/Bar'
+import Square from '../../tools/svgs/Square/Square'
 
 const Home = () => {
 
@@ -66,7 +69,44 @@ const Home = () => {
                 <p className="background-txt" id='y'>const social_life = null ;</p>
                 <p className="background-txt" id='z'>{'<p>'} This is a Bootstrap Free Zone {'</p>'}</p>
                 <p className="background-txt" id='aa'>{'DROP * DATABASE'}</p>
-               <a href="" className="background-txt" id='ab'>{'<a href="'}shany_wan_kenobi.png"{'>'}Click Me{'</a>'}</a>
+                <a href="../../assets/Shany-Wan_Kenobi-1.png" className="background-txt" id='ab'>{'<a href="'}shany_wan_kenobi.png"{'>'}Click Me{'</a>'}</a>
+
+
+                {/*Plus Box*/}
+                <Plus top='18.5%' left='47.7%'/>
+                <Plus bottom='19.5%' left='32.8%'/>
+
+                <Plus bottom='7%' right='40%'/>
+                <Plus bottom='7%' right='36%'/>
+                <Plus bottom='7.5%' right='25.8%'/>
+
+                <Plus bottom='63.5%' right='3.7%'/>
+                <Plus bottom='67.5%' right='3.7%'/>
+                <Plus bottom='49%' right='3.7%'/>
+                
+
+                {/*Bar Box*/}
+
+                <Bar left='3%' top='17%' type='one'/>
+                <Bar bottom='17%' left='7.3%' type='one'/>
+
+                <Bar bottom='30%' right='7.3%' type='two'/>
+                <Bar bottom='22%' right='7.3%' type='two'/>
+                <Bar bottom='12%' right='7.3%' type='two'/>
+                <Bar bottom='8%' right='7.3%' type='two'/>
+
+
+                {/*small squares*/}
+
+                <Square left='3.5%' top='40%'/>
+
+                <Square left='3.5%' top='63%'/>
+                <Square left='3.5%' top='67%'/>
+
+                <Square left='3.5%' top='80%'/>
+
+                
+
 
             </div>
         </div>

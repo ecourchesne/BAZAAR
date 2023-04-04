@@ -41,9 +41,9 @@
 }
 
 #login .form-switch.create-account {
-    position: absolute;
-    top: 70%;
-    left: 95%;
+    position: fixed;
+    bottom: 20%;
+    right:27%;
 }
 
 #login .form-switch p {
@@ -64,6 +64,12 @@
 
 .grey-square.darker {
     background-color: var(--light-3);
+}
+
+.yellow-square {
+    position: absolute;
+    z-index: 0;
+    background-color: var(--accent);
 }
 
 #login .grey-square#a {
@@ -125,3 +131,211 @@
     width: 55%;
     height: 15%;
 }
+
+/*left corner*/
+
+#login .grey-square#h {
+    left: 0;
+    top: 0;
+
+    width: 12%;
+    height: 22%;
+}
+
+#login .grey-square#i {
+    left: 2.5%;
+    top: 16%;
+
+    width: 8%;
+    height: 20%;
+}
+
+
+#login .grey-square#j {
+    z-index: -2;
+    left: 2.5%;
+    top: 26%;
+
+    width: 30%;
+    height: 8.5%;
+
+}
+
+/*top middle*/
+
+
+#login .grey-square#k {
+    left: 50%;
+    top: 0%;
+
+    width: 10%;
+    height: 10%;
+
+}
+
+/*right corner*/
+
+#login .grey-square#l {
+    right: 8%;
+    top: 0%;
+
+    width: 14%;
+    height: 18%;
+
+}
+
+#login .grey-square#m {
+    right: 0%;
+    top: 13%;
+
+    width: 14%;
+    height: 10%;
+}
+
+
+#login .grey-square#n {
+    right: 1%;
+    top: 11%;
+
+    width: 6%;
+    height: 10%;
+
+}
+
+/*right side*/
+
+#login .grey-square#o {
+    right: 0%;
+    top: 40%;
+
+    width: 10%;
+    height: 30%;
+
+}
+
+#login .grey-square#p {
+    right: 0%;
+    top: 65%;
+
+    width: 5%;
+    height: 30%;
+
+}
+
+
+/*left middle-bottom*/
+
+#login .grey-square#q {
+    left: 0%;
+    bottom: 10%;
+
+    width: 10%;
+    height: 15%;
+
+}
+
+
+#login .grey-square#r {
+    left: 0%;
+    bottom: 23%;
+
+    width: 4%;
+    height: 20%;
+
+}
+
+
+#login .grey-square#s {
+    left: 17%;
+    bottom: 38%;
+
+    width: 3.5%;
+    height: 10%;
+
+}
+
+#login .grey-square#t {
+    left: 15.5%;
+    bottom: 45%;
+
+    width: 3%;
+    height: 3%;
+
+}
+
+/*bottom*/
+
+#login .grey-square.darker#u {
+    left: 34%;
+    bottom: 0%;
+
+    width: 1.5%;
+    height: 8%;
+
+}
+
+
+/*YELLOW SQUARE*/
+
+#login .yellow-square#v {
+    z-index: 3;
+    left: 8%;
+    bottom: 20%;
+
+    width: 3.5%;
+    height: 2%;
+
+}
+
+#login .yellow-square#w {
+    right: 6%;
+    top: 27%;
+
+    width: 3.5%;
+    height: 2%;
+
+}
+
+#login .yellow-square#x {
+    right: 29%;
+    top: 60%;
+
+    width: 1.2%;
+    height: 8%;
+
+}
+
+
+#login #y {
+    top: 32%;
+    left: 83.5%;
+}
+
+#login #z {
+    top: 34%;
+    left: 83.5%;
+}
+
+#login #aa {
+    top: 6%;
+    right: 45%;
+}
+
+#login #ab {
+    top: 40%;
+    left: 8%;
+}
+
+#login #ac {
+    top: 42%;
+    left: 8%;
+}
+
+#login .background-svgs * {
+    position: fixed;
+}
+
+
+
+
+

@@ -97,3 +97,214 @@
     background-color: var(--accent);
 }
 
+
+/*TOP LEFT*/
+/* LIGHT GREY */
+#home .background #a {
+    left: 0;
+    top: 0;
+
+    width: 11.3%;
+    height: 30%;
+
+}
+
+#home .background #b {
+    left: 9%;
+    top: 19%;
+
+    width: 39% ;
+    height: 9%;
+}
+/* YELLOW */
+#home .background #s {
+    left: 7%;
+    top: 25%;
+
+    width: 1%;
+    height: 8%;
+}
+
+
+/*TOP CENTER*/
+/* LIGHT GREY */
+#home .background #c {
+    top: 3%;
+    left: 45%;
+
+    width: 15%;
+    height: 10%;
+}
+
+/* TOP RIGHT*/
+/* LIGHT GREY */
+#home .background #d {
+    right: 0;
+    top: 0;
+
+    width: 30%;
+    height: 15%;
+}
+
+#home .background #e{
+    right: 7%;
+    top: 0;
+
+    width: 20%;
+    height: 19%;
+}
+/* DARK GREY */
+#home .background #m {
+    right: 0;
+    top: 0;
+
+    width: 10%;
+    height: 9%;
+}
+
+#home .background #n {
+    right: 4%;
+    top: 4%;
+
+    width: 8%;
+    height: 10%;
+}
+
+#home .background #o {
+    right: 4%; 
+    top: 4%;
+
+    width: 13%;
+    height: 8%;
+}
+
+/* YELLOW */
+
+#home .background #t {
+    right: 10%;
+    top: 23%;
+
+    width: 4%;
+    height: 2%;
+}
+
+
+/* MIDDLE LEFT AND BOTTOM LEFT */
+/* LIGHT GREY */
+#home .background #f {
+    left: 0;
+    top: 55%;
+
+    width: 8%;
+    height: 35%;
+}
+
+#home .background #g {
+    left: 0;
+    top: 70%;
+
+    width: 15%;
+    height: 15%;
+}
+
+/* DARK GREY */
+
+#home .background #p {
+    left: 1.5%;
+    top: 85%;
+
+    width: 5%;
+    height: 12%;
+}
+
+/* MIDDLE UNDER STUDENT */
+/* LIGHT GREY */
+#home .background #h {
+    left: 23%;
+    top: 60%;
+
+    width: 10%;
+    height: 20%;
+
+}
+
+/* YELLOW */
+
+#home .background #u {
+    left: 20%;
+    bottom: 0;
+
+    height: 5%;
+    width: 1%;
+}
+
+
+/*MIDDLE RIGHT */
+/* LIGHT GREY */
+
+#home .background #i {
+    right: 0;
+    top: 42%;
+
+    width: 17%;
+    height: 18%;
+}
+
+#home .background #j {
+    right: 1%;
+    top: 38%;
+
+    width: 26%;
+    height: 10%;
+}
+
+/* DARK GREY */
+#home .background #q {
+    right: 2%;
+    top: 36%;
+
+    width: 4%;
+    height: 17%;
+}
+
+#home .background #r {
+    right: 2%;
+    top: 43%;
+
+    width: 6%;
+    height: 8%;
+}
+
+
+/*BOTTOM RIGHT*/
+/* LIGHT GREY */
+
+#home .background #k {
+    right: 30%;
+    bottom: 0;
+
+    width: 16%;
+    height: 15%;
+}
+
+#home .background #l {
+    right: 45%;
+    bottom: 5%;
+
+    width: 6%;
+    height: 8%;
+}
+
+/* YELLOW */
+
+#home .background #v {
+    right: 26%;
+    bottom: 0;
+
+    width: 8%;
+    height: 8%;
+}
+
+
+
+

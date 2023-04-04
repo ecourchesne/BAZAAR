@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { Link, useLocation, useSearchParams } from 'react-router-dom'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './styles.css'
 
 import MSquare from '../../tools/MSquare/MSquare'
@@ -9,6 +9,9 @@ import Input from '../../tools/Input/Input'
 const Login = ({ isTeacher }) => {
     const [isLogin, setIsLogin] = useState(isTeacher ? true : false)
 
+    const toggleForm = () => {
+        setIsLogin((prev) => !prev)
+    }
 
     return (
         <div id='login'>
@@ -20,11 +23,11 @@ const Login = ({ isTeacher }) => {
                 <form autoComplete='new-password'>
                     {!isLogin && <InputRow>
                         <Input id='firstname' label='Prénom' />
-                        <Input id='lastname' label='Nom' down />
+                        <Input id='lastname' label='Nom' />
                     </InputRow>}
 
                     <InputRow>
-                        <Input id='email' label='Email' down={isLogin ? true : false}/>
+                        <Input id='email' label='Email'/>
                     </InputRow>
 
                     <InputRow>
@@ -39,18 +42,22 @@ const Login = ({ isTeacher }) => {
                         <button type='button'>Entrer -&gt;</button>
                     </MSquare>
 
-
-                    {isLogin && !isTeacher &&
-                    <MSquare type='one'>
-                        <Link to='/connexion#s-inscrire'>Créer un compte -&gt;</Link>
-                    </MSquare>}
-
                     {/* backgound elements */}
                     <div className="grey-square" id='a'></div>
                     <div className="grey-square" id='b'></div>
                     <div className="grey-square" id='c'></div>
                     <div className="grey-square darker" id='d'></div>
                 </form>
+
+                {/* form switch button */}
+                {!isTeacher &&
+                <div className={`form-switch ${isLogin ? '' : 'create-account'}`}>
+                    <p>{isLogin ? 'Nouveau sur BAZAAR?' : 'Vous avez déja un compte?'}</p>
+                    <MSquare type='four'>
+                        <button onClick={toggleForm}>{isLogin ? 'Créer un compte ->' : 'Se connecter ->'}</button>
+                    </MSquare>
+                </div>}
+
             </main>
 
             {/* background elements relative to page */}

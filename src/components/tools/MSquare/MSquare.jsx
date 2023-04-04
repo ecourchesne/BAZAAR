@@ -85,6 +85,15 @@ const MSquare = ({ type, children }) => {
                 </svg>
             </>}
 
+            {type === 'four' && <>
+                <svg id='one' width="73" height="26" viewBox="0 0 73 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="73" height="26" fill="#FFF500"/>
+                </svg>
+                <svg id='two' width="150" height="26" viewBox="0 0 150 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="150" height="26" fill="#FFF500"/>
+                </svg>
+            </>}
+
 
         </div>
     )

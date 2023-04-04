@@ -10,11 +10,13 @@
 }
 
 #login main {
-
+    position: relative;
 }
 
 #login form {
     position: relative;
+
+    min-width: 500px;
 
     padding: 22px;
 }
@@ -30,6 +32,25 @@
 #login .m-square.two {
     margin-top: 2rem;
     translate: -52px;
+}
+
+#login .form-switch {
+    position: relative;
+    z-index: 1;
+    margin-top: 2rem;
+}
+
+#login .form-switch.create-account {
+    position: absolute;
+    top: 70%;
+    left: 95%;
+}
+
+#login .form-switch p {
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
 }
 
 

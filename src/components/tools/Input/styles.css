@@ -1,0 +1,102 @@
+.input-wrap {
+    position: relative;
+    z-index: 5;
+
+}
+
+.input-wrap input {
+    --input-height: 3em;
+
+    width: calc(100% - 50px);
+    height: var(--input-height);
+    font-family: 'Orbitron';
+    font-size: var(--input-fs);
+    font-weight: 400;
+    border: none;
+    background-color: var(--dark-2);
+    color: var(--light-1);
+    padding-inline: 1em;
+
+    transition: color 0.3s ease;
+}
+.input-wrap input:focus {
+    outline: none;
+    background-color: var(--dark-1);
+}
+
+.input-wrap label {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+
+    font-family: 'Orbitron';
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    color: var(--light-1) !important;
+
+    transition: .3s ease;
+
+    pointer-events: none;
+    user-select: none;
+}
+
+.input-wrap.done label {
+    top: 5px;
+    transform: translateY(0);
+    font-size: 8px;
+}
+
+.input-wrap svg {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    transition: color 0.3s ease;
+}
+.input-wrap.down svg {
+    transform: scaleY(-1);
+}
+
+.input-wrap:has(input:focus) svg path {
+    fill: var(--dark-1);
+}
+
+
+/* password images */
+.input-wrap img {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    right: 50px;
+    translate: 50% -50%;
+    
+    height: 35%;
+    aspect-ratio: 1 / 1;
+    
+}
+
+
+/* change font to poppins for bigger rounds when is password */
+.input-wrap input[type='password'] {
+    font-family: 'Poppins';
+}
+
+
+
+/* input {
+    clip-path: inset(100% 0 0 0);
+    animation: clip-path-0 0.5s cubic-bezier(0.215, 0.610, 0.355, 1) 1s forwards;
+}
+
+
+.out input {
+    clip-path: inset(0 0 0 0);
+    animation: clip-path-t 0.5s cubic-bezier(0.215, 0.610, 0.355, 1) 0s forwards;
+}
+
+.out .input-wrap label {
+    opacity: 1;
+    animation: opacity-0 0.5s ease 0s forwards;
+} */

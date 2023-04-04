@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { useSelector } from "react-redux";
 import WebFont from "webfontloader";
 
 // components
@@ -8,6 +7,7 @@ import WebFont from "webfontloader";
 import MainNav from "./components/navbars/MainNav/MainNav";
 // import AlertModal from "./components/modals/AlertModal/AlertModal";
 import Home from "./components/pages/Home/Home";
+import Login from "./components/pages/Login/Login";
 
 
 const App = () => {
@@ -30,6 +30,8 @@ const App = () => {
 
       <Routes>
         <Route index path="/" exact element={<Home />} />
+        <Route path="/etudiant" element={<Login />}/>
+        <Route path="/professeur" element={<Login isTeacher />}/>
       </Routes>
     </BrowserRouter>
   );

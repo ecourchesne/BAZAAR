@@ -7,6 +7,7 @@
     font-size: 35px;
     font-weight: 400;
     letter-spacing: 0.15em;
+    white-space: nowrap;
 }
 
 .m-square svg  {
@@ -59,7 +60,7 @@
 }
 
 .m-square.two svg#one {
-    top: 0;
+    top: 14px;
     left: 0;
 }
 
@@ -73,22 +74,27 @@
     left: 36px;
 }
 
-.m-square.two svg#four {
-    top: -20px;
-    left: 85px;
+.m-square.two svg#five {
+    top: 0px;
+    left: 0px;
 }
 
-.m-square.two svg#five {
+.m-square.two svg#six {
+    top: 0px;
+    left: 201px;
+}
+
+.m-square.two svg#seven {
     top: 16px;
     left: 24px;
 }
 
-.m-square.two svg#six {
+.m-square.two svg#heigt {
     top: 19px;
     left: 223px;
 }
 
-.m-square.two svg#seven {
+.m-square.two svg#nine {
     top: 17px;
     left: 255px;
 }
@@ -133,4 +139,25 @@
 .m-square.three svg#seven {
     top: 109px;
     left: 315px;
+}
+
+
+/* type 4 */
+.m-square.four {
+    height: auto;
+
+    padding-top: 0px;
+    padding-left: 26px;
+    
+    font-size: 18px;
+}
+
+.m-square.four svg#one {
+    top: 0px;
+    left: 60px;
+}
+
+.m-square.four svg#two {
+    top: 15px;
+    left: 0px;
 }

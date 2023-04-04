@@ -140,3 +140,24 @@
     top: 109px;
     left: 315px;
 }
+
+
+/* type 4 */
+.m-square.four {
+    height: auto;
+
+    padding-top: 0px;
+    padding-left: 26px;
+    
+    font-size: 18px;
+}
+
+.m-square.four svg#one {
+    top: 0px;
+    left: 60px;
+}
+
+.m-square.four svg#two {
+    top: 15px;
+    left: 0px;
+}

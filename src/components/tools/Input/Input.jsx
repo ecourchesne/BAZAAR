@@ -1,4 +1,4 @@
-import React, { useState, useSyncExternalStore } from "react";
+import React, { useState } from "react";
 import "./styles.css";
 
 import notVisible from './notVisible.png'
@@ -33,7 +33,7 @@ const Input = ({ id, label, placeholder, optional, type, down }) => {
         autoComplete="new-password"
       />
       {type === 'password' && 
-        <button className="toggle" onClick={handleVisiblity}>
+        <button tabIndex='-1' className="toggle" onClick={handleVisiblity}>
           {visible && <img src={isVisible} alt='visible'/>}
           {!visible && <img src={notVisible} alt='not visible'/>}
         </button>

@@ -78,6 +78,13 @@
 }
 
 
+/* change font to poppins for bigger rounds when is password */
+.input-wrap input[type='password'] {
+    font-family: 'Poppins';
+}
+
+
+
 /* input {
     clip-path: inset(100% 0 0 0);
     animation: clip-path-0 0.5s cubic-bezier(0.215, 0.610, 0.355, 1) 1s forwards;

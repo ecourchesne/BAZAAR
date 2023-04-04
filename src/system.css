@@ -5,6 +5,7 @@
     --light-1: #ffffff;
     --light-2: #f4f4f4;
     --light-3: #e8e8e8;
+    --light-4: #b8b8b8;
 
     --dark-1: #000000;
     --dark-2: #212121;
@@ -26,10 +27,11 @@
     --fs-vertical-text: 14px;
 
 
+
     /* dimensions */
     --navbar-height: 100px;
     --navbar-padding: 4rem;
-
+    
 
 }
 
@@ -47,4 +49,12 @@ h1 {
 
 p, span {
     font-family: 'Poppins';
+}
+
+.background-txt {
+    position: absolute;
+    font-family: 'Orbitron';
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--light-4);
 }

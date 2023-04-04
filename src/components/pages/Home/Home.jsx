@@ -61,6 +61,13 @@ const Home = () => {
                 <div className="yellow-square" id="v"></div>
 
                 {/* hidden messages */}
+                <p className="background-txt" id='w'>console.log{'("Hello World");'} </p>
+                <p className="background-txt" id='x'>System.exit{'(0)'} </p>
+                <p className="background-txt" id='y'>const social_life = null ;</p>
+                <p className="background-txt" id='z'>{'<p>'} This is a Bootstrap Free Zone {'</p>'}</p>
+                <p className="background-txt" id='aa'>{'DROP * DATABASE'}</p>
+               <a href="" className="background-txt" id='ab'>{'<a href="'}shany_wan_kenobi.png"{'>'}Click Me{'</a>'}</a>
+
             </div>
         </div>
     )

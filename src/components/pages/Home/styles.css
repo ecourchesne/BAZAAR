@@ -306,3 +306,35 @@
 
 
 
+/*hidden text*/
+#home .background #w {
+    top: 6%;
+    left: 53%;
+}
+
+#home .background #x {
+    top: 15%;
+    left: 25%;
+}
+
+#home .background #y {
+    top: 30%;
+    right: 28%;
+}
+
+#home .background #z {
+    top: 45%;
+    left: 30%;
+}
+
+#home .background #aa {
+    bottom: 25%;
+    right: 40%;
+}
+
+#home .background #ab {
+    bottom: 10%;
+    left: 10%;
+}
+
+

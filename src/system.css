@@ -1,6 +1,7 @@
 /* VARIABLES */
 :root {
 
+    
     /* colors */
     --light-1: #ffffff;
     --light-2: #f4f4f4;
@@ -24,6 +25,8 @@
 
     --fs-radio-inputs: 12px;
     --fs-vertical-text: 14px;
+
+    --fs-input: 16px;
 
 
     /* dimensions */

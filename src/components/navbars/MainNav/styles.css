@@ -1,0 +1,13 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: var(--navbar-height);
+    background-color: var(--light-2);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

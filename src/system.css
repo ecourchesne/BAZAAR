@@ -1,5 +1,7 @@
+/* VARIABLES */
 :root {
 
+    
     /* colors */
     --light-1: #ffffff;
     --light-2: #f4f4f4;
@@ -24,12 +26,28 @@
     --fs-radio-inputs: 12px;
     --fs-vertical-text: 14px;
 
+    --fs-input: 16px;
+
 
     /* dimensions */
     --navbar-height: 100px;
-    --navbar-padding: 2rem;
+    --navbar-padding: 4rem;
 
 
 }
 
 
+
+/* TYPOGRAPHY */
+h1, h2, h3, h4, h5, button, a {
+    font-family: 'Orbitron';
+}
+
+h1 {
+    font-size: var(--fs-h1);
+    font-weight: 400;
+}
+
+p, span {
+    font-family: 'Poppins';
+}

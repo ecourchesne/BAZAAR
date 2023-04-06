@@ -1,13 +1,50 @@
 nav {
     position: fixed;
+    z-index: 2000;
     top: 0;
     left: 0;
     
     width: 100%;
     height: var(--navbar-height);
-    background-color: var(--light-2);
 
+    padding: var(--navbar-padding);
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+nav .left p {
+    font-family: 'Orbitron';
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.50em;
+    line-height: 1em;
+
+    margin-bottom: 0.25rem;
+}
+
+nav .left p + p {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    line-height: 1em;
+}
+
+
+nav .right p {
+    font-family: 'Orbitron';
+    font-size: 15px;
+    letter-spacing: 0.20em;
+    line-height: 1em;
+
+    margin-bottom: 0.25rem;
+}
+
+nav .right p + p {
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.20em;
+    line-height: 1em;
 }

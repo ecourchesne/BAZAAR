@@ -1,0 +1,11 @@
+.password-input {
+    position: relative;
+
+    height: var(--input-height);
+    width: 100%;
+}
+
+.password-input img {
+    height: 20px;
+    width: 20px;
+}

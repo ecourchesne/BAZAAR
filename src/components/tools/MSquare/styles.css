@@ -1,0 +1,163 @@
+.m-square {
+    position: relative;
+    z-index: 1;
+
+    width: fit-content;
+    height: 110px;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    white-space: nowrap;
+}
+
+.m-square svg  {
+    position: absolute;
+    z-index: -1;
+}
+
+.m-square svg rect {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* type 1 */
+.m-square.one {
+    padding-top: 23px;
+    padding-left: 3rem;
+}
+
+.m-square.one svg#one {
+    top: 0;
+    left: 0;
+}
+
+.m-square.one svg#two {
+    top: 31px;
+    left: 0;
+}
+
+.m-square.one svg#three {
+    top: 88px;
+    left: 34px;
+}
+
+.m-square.one svg#four {
+    top: 106px;
+    left: 24px;
+}
+
+.m-square.one svg#five {
+    top: 104px;
+    left: 69px;
+}
+
+
+/* type 2 */
+.m-square.two {
+    padding-top: 40px;
+    padding-left: 52px;
+}
+
+.m-square.two svg#one {
+    top: 14px;
+    left: 0;
+}
+
+.m-square.two svg#two {
+    top: 50px;
+    left: 0;
+}
+
+.m-square.two svg#three {
+    top: 96px;
+    left: 36px;
+}
+
+.m-square.two svg#five {
+    top: 0px;
+    left: 0px;
+}
+
+.m-square.two svg#six {
+    top: 0px;
+    left: 201px;
+}
+
+.m-square.two svg#seven {
+    top: 16px;
+    left: 24px;
+}
+
+.m-square.two svg#heigt {
+    top: 19px;
+    left: 223px;
+}
+
+.m-square.two svg#nine {
+    top: 17px;
+    left: 255px;
+}
+
+
+/* type 3 */
+.m-square.three {
+    padding-top: 43px;
+    padding-left: 60px;
+}
+
+.m-square.three svg#one {
+    top: 25px;
+    left: 0;
+}
+
+.m-square.three svg#two {
+    top: 0px;
+    left: 23px;
+}
+
+.m-square.three svg#three {
+    top: 109px;
+    left: 241px;
+}
+
+.m-square.three svg#four {
+    top: 109px;
+    left: 26px;
+}
+
+.m-square.three svg#five {
+    top: 8px;
+    left: 97px;
+}
+
+.m-square.three svg#six {
+    top: 134px;
+    left: 38px;
+}
+
+.m-square.three svg#seven {
+    top: 109px;
+    left: 315px;
+}
+
+
+/* type 4 */
+.m-square.four {
+    height: auto;
+
+    padding-top: 0px;
+    padding-left: 26px;
+    
+    font-size: 18px;
+}
+
+.m-square.four svg#one {
+    top: 0px;
+    left: 60px;
+}
+
+.m-square.four svg#two {
+    top: 15px;
+    left: 0px;
+}
